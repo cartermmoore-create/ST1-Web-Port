@@ -1,0 +1,23 @@
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#050505;color:#eee;font-family:Arial,Helvetica,sans-serif}
+#game{position:relative;width:100vw;height:100vh}
+#view{display:block;width:100%;height:100%;background:#0a0d09}
+#hud{position:absolute;inset:0;pointer-events:none;text-shadow:0 2px 8px #000}
+.topline{position:absolute;top:14px;left:16px;display:flex;gap:26px;font-size:16px;letter-spacing:1px}
+#crosshair{position:absolute;left:50%;top:50%;transform:translate(-50%,-52%);font-size:20px;opacity:.7}
+#prompt{position:absolute;left:50%;bottom:78px;transform:translateX(-50%);font-size:15px}
+#status{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);font-size:12px;opacity:.7;text-align:center}
+#stamina{position:absolute;left:16px;bottom:18px;width:170px;height:8px;border:1px solid #999;background:#101010}
+#stamina div{height:100%;width:100%;background:#ddd}
+.screen{position:absolute;inset:0;display:grid;place-items:center;background:rgba(0,0,0,.72)}
+.hidden{display:none}
+.card{width:min(620px,calc(100vw - 30px));padding:30px;border:1px solid #666;background:rgba(10,10,10,.96);box-shadow:0 16px 50px rgba(0,0,0,.55);text-align:center}
+.card h1{margin:0 0 4px;letter-spacing:5px;font-size:clamp(28px,6vw,54px)}
+.card h2{letter-spacing:3px}
+.muted{color:#aaa;letter-spacing:2px;font-size:12px}
+.tiny{font-size:11px;color:#777;line-height:1.5;margin-top:24px}
+label{display:block;margin:22px 0 14px;font-size:13px;letter-spacing:1px}
+select,button{margin:10px;padding:11px 24px;background:#141414;color:#fff;border:1px solid #888;font:inherit}
+button{cursor:pointer}
+button:hover{background:#252525}
+.smallcard{width:min(420px,calc(100vw - 30px))}

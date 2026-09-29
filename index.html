@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ST1 Web Port — Reconstructed from Unity 3.5.5f2 scene data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="game">
+  <canvas id="view"></canvas>
+
+  <div id="hud">
+    <div class="topline">
+      <span id="levelLabel">LEVEL 0</span>
+      <span> PAPERS <b id="paperCount">0/10</b></span>
+    </div>
+    <div id="crosshair">+</div>
+    <div id="prompt"></div>
+    <div id="status">WASD move · mouse look · Shift sprint · F flashlight · E collect</div>
+    <div id="stamina"><div></div></div>
+  </div>
+
+  <div id="menu" class="screen">
+    <div class="card">
+      <h1>SLENDYTUBBIES 1</h1>
+      <p class="muted">WEB RECONSTRUCTION</p>
+      <p>This build uses scene data recovered from the supplied Unity 3.5.5f2 release, including the actual paper, tree, house and spawn coordinates.</p>
+      <label>LEVEL
+        <select id="levelSelect"></select>
+      </label>
+      <button id="start">PLAY</button>
+      <p class="tiny">This is a reconstruction, not a direct browser execution of the original Windows player. Original executable/assets are not bundled.</p>
+    </div>
+  </div>
+
+  <div id="pause" class="screen hidden">
+    <div class="card smallcard">
+      <h2>PAUSED</h2>
+      <button id="resume">RESUME</button>
+      <button id="restart">RESTART</button>
+    </div>
+  </div>
+
+  <div id="win" class="screen hidden">
+    <div class="card smallcard">
+      <h2>10 PAPERS</h2>
+      <p>You completed this reconstructed level.</p>
+      <button id="again">PLAY AGAIN</button>
+    </div>
+  </div>
+</div>
+<script type="module" src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+{
+  "source_archive": "Slendytubbies_32bit_original(1).zip",
+  "engine": "Unity 3.5.5f2",
+  "serialized_scene_files": [
+    "level0",
+    "level1",
+    "level2",
+    "level3",
+    "level4",
+    "level5",
+    "level6",
+    "level7",
+    "level8",
+    "level9"
+  ],
+  "recovered_levels": {
+    "level0": {
+      "paper_count": 10,
+      "tree_count": 10,
+      "house_count": 1,
+      "spawn_count": 1,
+      "undead_count": 1,
+      "tinky_count": 1
+    },
+    "level1": {
+      "paper_count": 10,
+      "tree_count": 10,
+      "house_count": 1,
+      "spawn_count": 1,
+      "undead_count": 1,
+      "tinky_count": 1
+    },
+    "level2": {
+      "paper_count": 10,
+      "tree_count": 10,
+      "house_count": 1,
+      "spawn_count": 1,
+      "undead_count": 1,
+      "tinky_count": 1
+    },
+    "level3": {
+      "paper_count": 10,
+      "tree_count": 10,
+      "house_count": 1,
+      "spawn_count": 1,
+      "undead_count": 1,
+      "tinky_count": 0
+    },
+    "level4": {
+      "paper_count": 10,
+      "tree_count": 10,
+      "house_count": 1,
+      "spawn_count": 1,
+      "undead_count": 1,
+      "tinky_count": 0
+    },
+    "level5": {
+      "paper_count": 10,
+      "tree_count": 10,
+      "house_count": 1,
+      "spawn_count": 1,
+      "undead_count": 1,
+      "tinky_count": 0
+    },
+    "level6": {
+      "paper_count": 10,
+      "tree_count": 10,
+      "house_count": 1,
+      "spawn_count": 1,
+      "undead_count": 1,
+      "tinky_count": 1
+    },
+    "level7": {
+      "paper_count": 10,
+      "tree_count": 10,
+      "house_count": 1,
+      "spawn_count": 1,
+      "undead_count": 1,
+      "tinky_count": 1
+    },
+    "level8": {
+      "paper_count": 10,
+      "tree_count": 8,
+      "house_count": 1,
+      "spawn_count": 1,
+      "undead_count": 1,
+      "tinky_count": 1
+    },
+    "level9": {
+      "paper_count": 0,
+      "tree_count": 0,
+      "house_count": 0,
+      "spawn_count": 0,
+      "undead_count": 0,
+      "tinky_count": 0
+    }
+  }
+}
